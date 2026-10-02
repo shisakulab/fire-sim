@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "savedAt": "",
+  "links": {
+    "repo": "https://github.com/shisakulab/fire-sim",
+    "article": ""
+  },
+  "view": {
+    "real": true,
+    "trials": 10000
+  },
+  "params": {
+    "age": 30,
+    "life": 85,
+    "assets": 154,
+    "nisaNow": 154,
+    "cash": 237,
+    "takeHome": 390,
+    "living": 17.9,
+    "wageGrowth": 1.5,
+    "gross": 464,
+    "careerStart": 22,
+    "stepAge": [
+      35,
+      40,
+      50
+    ],
+    "stepNet": [
+      402,
+      433,
+      468
+    ],
+    "stepGross": [
+      513,
+      554,
+      598
+    ],
+    "marryAge": 31,
+    "wedding": 0,
+    "livingMarried": 17.9,
+    "kids": 0,
+    "birth": [
+      33,
+      35
+    ],
+    "path": [
+      2,
+      2
+    ],
+    "eduShare": 50,
+    "kidLiving": 2,
+    "uniAway": 0,
+    "allowance": true,
+    "leaveYears": 1,
+    "leaveRate": 80,
+    "shortYears": 2,
+    "shortRate": 80,
+    "fireAge": 50,
+    "fireLiving": 17.9,
+    "severance": 0,
+    "side": 0,
+    "sideUntil": 60,
+    "socialPre60": 33.7,
+    "socialPost60": 17.2,
+    "target": 80,
+    "pensionStart": 65,
+    "netRate": 90,
+    "slide": 0.2,
+    "ndxShare": 0,
+    "cashYears": 2,
+    "crashRule": true,
+    "crashDD": 20,
+    "inflation": 2.0,
+    "acwiRet": 7.6,
+    "acwiVol": 20.4,
+    "ndxRet": 7,
+    "ndxVol": 26,
+    "cashRet": 0.3,
+    "married": false
+  },
+  "samples": [
+    {
+      "name": "平均的な30歳・独身で50歳FIRE",
+      "params": {}
+    },
+    {
+      "name": "サイドFIRE（月5万円を60歳まで）",
+      "params": {
+        "side": 5,
+        "sideUntil": 60
+      }
+    },
+    {
+      "name": "結婚・子ども2人（例）",
+      "params": {
+        "married": true,
+        "marryAge": 31,
+        "kids": 2,
+        "birth": [
+          33,
+          35
+        ]
+      }
+    }
+  ]
+}
